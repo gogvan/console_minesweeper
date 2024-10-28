@@ -1,7 +1,7 @@
-<h3>Простая консольная игрушка cапёр - cminesweeper</h3>
+<h3>Simple Minesweeper console game - cminesweeper</h3>
 <br>
-Нужно задать свой размер поля и начать думать.<br>
-Примеры:<br>
+You need to set your field size and start thinking.<br>
+Examples:<br>
 <pre>
    Y 1 2 3 4 5 6 7 8
  X - - - - - - - - -
