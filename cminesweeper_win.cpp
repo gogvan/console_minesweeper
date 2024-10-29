@@ -240,9 +240,9 @@ int main() {
         }
         else {
             cout << "Exiting the game" << endl;
-            system("pause");
             break;
         }
         cout << endl;
     }
+    system("pause");
 }
