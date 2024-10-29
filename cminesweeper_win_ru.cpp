@@ -242,9 +242,9 @@ int main() {
         }
         else {
             cout << "Выход из игры" << endl;
-            system("pause");
             break;
         }
         cout << endl;
     }
+    system("pause");
 }
