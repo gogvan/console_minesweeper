@@ -15,8 +15,7 @@ int input_int (string text, int min_int, int max_int) {
         cin >> ssize;
         try {
             isize = stoul(ssize);
-        } catch (const exception& e) {
-            // e.what()
+        } catch (exception) {
             isize = min_int;
         }
     } while (isize < min_int || isize > max_int);
