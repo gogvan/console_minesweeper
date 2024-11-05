@@ -178,14 +178,19 @@ int main () {
         
         char action {80};
         string saction;
-        cout << "s - exit, f - check box, o - open: ";
-        cin >> saction;
-        if (saction == "f") {
-            action = 102;
-        } else if (saction == "o") {
-            action = 111;
-        } else {
-            action = 115;
+        for (i = 1; i <= 5; i++) {
+            cout << "s - exit, f - check box, o - open: ";
+            cin >> saction;
+            if (saction == "f") {
+                action = 102;
+            } else if (saction == "o") {
+                action = 111;
+            } else if (saction == "s" or i == 5) {
+                action = 115;
+            } else {
+                continue;
+            }
+            break;
         }
         
         if (action == 102 || action == 111) {
