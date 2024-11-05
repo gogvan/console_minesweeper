@@ -26,8 +26,8 @@ int main () {
     srand(time(0));
     int x = 0, y = 0, temp = 0, i = 0, j = 0, k = 0;
     cout << "Размер карты X на Y" << endl;
-    x = input_int("X [5...99]: ", 5, 99);
-    y = input_int("Y [5...99]: ", 5, 99);
+    x = input_int("X [5...50]: ", 5, 50);
+    y = input_int("Y [5...50]: ", 5, 50);
     cout << endl;
     
     int dx[8] { 1, 1, 1,  0, 0, -1, -1, -1};
